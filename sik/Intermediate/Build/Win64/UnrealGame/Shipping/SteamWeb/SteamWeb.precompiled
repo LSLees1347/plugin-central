@@ -1,0 +1,10 @@
+{
+	"OutputFiles": [
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SteamWeb\\Module.SteamWeb.1.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SteamWeb\\Module.SteamWeb.2.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SteamWeb\\Module.SteamWeb.3.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SteamWeb\\Module.SteamWeb.4.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SteamWeb\\Module.SteamWeb.5.cpp.obj",
+		"..\\..\\..\\x64\\UnrealGame\\Shipping\\SteamWeb\\Module.SteamWeb.6.cpp.obj"
+	]
+}

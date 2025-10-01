@@ -1,0 +1,99 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Functions/Matchmaking/SIK_MatchmakingSubsystem.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FSIK_AppId;
+struct FSIK_SteamId;
+#ifdef STEAMINTEGRATIONKIT_SIK_MatchmakingSubsystem_generated_h
+#error "SIK_MatchmakingSubsystem.generated.h already included, missing '#pragma once' in SIK_MatchmakingSubsystem.h"
+#endif
+#define STEAMINTEGRATIONKIT_SIK_MatchmakingSubsystem_generated_h
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_10_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnFavoritesListAccountsUpdated_DelegateWrapper(const FMulticastScriptDelegate& OnFavoritesListAccountsUpdated, ESIK_Result Result);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_11_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnFavoritesListChanged_DelegateWrapper(const FMulticastScriptDelegate& OnFavoritesListChanged, const FString& IP, int32 QueryPort, int32 ConnPort, FSIK_AppId AppID, int32 Flags, bool Add, int32 AccountId);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_12_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyMessageDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyMessageDel, FSIK_SteamId LobbyId, FSIK_SteamId UserId, ESIK_LobbyChatEntryType ChatEntryType, int32 ChatID);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_13_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyChatUpdateDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyChatUpdateDel, FSIK_SteamId LobbyId, FSIK_SteamId UserId, FSIK_SteamId MemberIDMakingChange, ESIK_LobbyChatMemberStateChange ChatMemberStateChange);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_14_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyCreatedDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyCreatedDel, FSIK_SteamId LobbyId, ESIK_Result Result);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_15_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyDataUpdateDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyDataUpdateDel, FSIK_SteamId LobbyId, FSIK_SteamId UserId, bool Success);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_16_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyEnterDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyEnterDel, FSIK_SteamId LobbyId, bool bLocked, ESIK_ChatRoomEnterResponse Response);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_17_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyGameCreatedDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyGameCreatedDel, FSIK_SteamId LobbyId, FSIK_SteamId GameServerId, const FString& GameServerIP, int32 GameServerPort);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_18_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyInviteDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyInviteDel, FSIK_SteamId LobbyId, FSIK_SteamId SenderUserId, FSIK_AppId AppId);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_19_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyKickedDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyKickedDel, FSIK_SteamId LobbyId, FSIK_SteamId AdminId, bool bKickedDueToDisconnect);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_20_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnLobbyMatchListDel_DelegateWrapper(const FMulticastScriptDelegate& OnLobbyMatchListDel, int32 LobbyCount);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_25_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSIK_MatchmakingSubsystem(); \
+	friend struct Z_Construct_UClass_USIK_MatchmakingSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(USIK_MatchmakingSubsystem, UGameInstanceSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamIntegrationKit"), NO_API) \
+	DECLARE_SERIALIZER(USIK_MatchmakingSubsystem)
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_25_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	USIK_MatchmakingSubsystem(USIK_MatchmakingSubsystem&&); \
+	USIK_MatchmakingSubsystem(const USIK_MatchmakingSubsystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USIK_MatchmakingSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USIK_MatchmakingSubsystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USIK_MatchmakingSubsystem)
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_22_PROLOG
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_25_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_25_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h_25_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMINTEGRATIONKIT_API UClass* StaticClass<class USIK_MatchmakingSubsystem>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Matchmaking_SIK_MatchmakingSubsystem_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -1,0 +1,12 @@
+{
+	"BuildId": "37670630",
+	"Modules": 
+	{
+		"OnlineSubsystemSteam": "UnrealEditor-OnlineSubsystemSteam.dylib",
+		"SteamController": "UnrealEditor-SteamController.dylib",
+		"SteamIntegrationKit": "UnrealEditor-SteamIntegrationKit.dylib",
+		"SteamShared": "UnrealEditor-SteamShared.dylib",
+		"SteamSockets": "UnrealEditor-SteamSockets.dylib",
+		"SteamWeb": "UnrealEditor-SteamWeb.dylib"
+	}
+}

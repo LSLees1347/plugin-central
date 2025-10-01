@@ -1,0 +1,127 @@
+// Copyright Epic Games, Inc. All Rights Reserved.
+/*===========================================================================
+	Generated code exported from UnrealHeaderTool.
+	DO NOT modify this manually! Edit the corresponding .h files instead!
+===========================================================================*/
+
+// IWYU pragma: private, include "Functions/Friends/SIK_FriendsSubsystem.h"
+#include "UObject/ObjectMacros.h"
+#include "UObject/ScriptMacros.h"
+
+PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FSIK_AppId;
+struct FSIK_SteamId;
+#ifdef STEAMINTEGRATIONKIT_SIK_FriendsSubsystem_generated_h
+#error "SIK_FriendsSubsystem.generated.h already included, missing '#pragma once' in SIK_FriendsSubsystem.h"
+#endif
+#define STEAMINTEGRATIONKIT_SIK_FriendsSubsystem_generated_h
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_10_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnAvatarImageLoaded_DelegateWrapper(const FMulticastScriptDelegate& OnAvatarImageLoaded, FSIK_SteamId SteamId, int32 Image, int32 Wide, int32 Tall);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_11_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnClanOfficerList_DelegateWrapper(const FMulticastScriptDelegate& OnClanOfficerList, FSIK_SteamId SteamId, int32 OfficerCount, bool bSuccess);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_12_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnFriendRichPresenceUpdate_DelegateWrapper(const FMulticastScriptDelegate& OnFriendRichPresenceUpdate, FSIK_SteamId SteamId, FSIK_AppId AppId);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_13_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnDownloadClanActivityCountsResult_DelegateWrapper(const FMulticastScriptDelegate& OnDownloadClanActivityCountsResult, bool bSuccess);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_14_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnFriendEnumerateFollowingList_DelegateWrapper(const FMulticastScriptDelegate& OnFriendEnumerateFollowingList, ESIK_Result Result, const TArray<FSIK_SteamId>& SteamId, int32 ResultsReturned, int32 TotalResults);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_15_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnFriendsGetFollowerCount_DelegateWrapper(const FMulticastScriptDelegate& OnFriendsGetFollowerCount, ESIK_Result Result, FSIK_SteamId SteamId, int32 Count);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_16_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnFriendsIsFollowing_DelegateWrapper(const FMulticastScriptDelegate& OnFriendsIsFollowing, ESIK_Result Result, FSIK_SteamId SteamId, bool bIsFollowing);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_17_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameConnectedChatJoin_DelegateWrapper(const FMulticastScriptDelegate& OnGameConnectedChatJoin, FSIK_SteamId ClanChatId, FSIK_SteamId User);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_18_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameConnectedChatLeave_DelegateWrapper(const FMulticastScriptDelegate& OnGameConnectedChatLeave, FSIK_SteamId ClanChatId, FSIK_SteamId User, bool Kicked, bool Dropped);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_19_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameConnectedClanChatMsg_DelegateWrapper(const FMulticastScriptDelegate& OnGameConnectedClanChatMsg, FSIK_SteamId ClanChatId, FSIK_SteamId User, int32 MessageID);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_20_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameConnectedFriendChatMsg_DelegateWrapper(const FMulticastScriptDelegate& OnGameConnectedFriendChatMsg, FSIK_SteamId User, int32 MessageID);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_21_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameLobbyJoinRequested_DelegateWrapper(const FMulticastScriptDelegate& OnGameLobbyJoinRequested, FSIK_SteamId SteamId, FSIK_SteamId LobbyId);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_22_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameOverlayActivated_DelegateWrapper(const FMulticastScriptDelegate& OnGameOverlayActivated, bool bActive);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_23_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameRichPresenceJoinRequested_DelegateWrapper(const FMulticastScriptDelegate& OnGameRichPresenceJoinRequested, FSIK_SteamId SteamId, const FString& ConnectString);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_24_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnGameServerChangeRequested_DelegateWrapper(const FMulticastScriptDelegate& OnGameServerChangeRequested, const FString& Server, const FString& Password);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_25_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnJoinClanChatRoomCompletionResult_DelegateWrapper(const FMulticastScriptDelegate& OnJoinClanChatRoomCompletionResult, FSIK_SteamId ClanChatId, ESIK_ChatRoomEnterResponse ChatRoomEnterResponse);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_26_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnPersonaStateChange_DelegateWrapper(const FMulticastScriptDelegate& OnPersonaStateChange, FSIK_SteamId SteamId, int32 ChangeFlags);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_27_DELEGATE \
+STEAMINTEGRATIONKIT_API void FOnSetPersonaNameResponse_DelegateWrapper(const FMulticastScriptDelegate& OnSetPersonaNameResponse, ESIK_Result Result, bool bLocalSuccess, bool bRemoteSuccess);
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_35_INCLASS_NO_PURE_DECLS \
+private: \
+	static void StaticRegisterNativesUSIK_FriendsSubsystem(); \
+	friend struct Z_Construct_UClass_USIK_FriendsSubsystem_Statics; \
+public: \
+	DECLARE_CLASS(USIK_FriendsSubsystem, UGameInstanceSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/SteamIntegrationKit"), NO_API) \
+	DECLARE_SERIALIZER(USIK_FriendsSubsystem)
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+	/** Private move- and copy-constructors, should never be used */ \
+	USIK_FriendsSubsystem(USIK_FriendsSubsystem&&); \
+	USIK_FriendsSubsystem(const USIK_FriendsSubsystem&); \
+public: \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, USIK_FriendsSubsystem); \
+	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(USIK_FriendsSubsystem); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(USIK_FriendsSubsystem)
+
+
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_32_PROLOG
+#define FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_35_GENERATED_BODY \
+PRAGMA_DISABLE_DEPRECATION_WARNINGS \
+public: \
+	FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_35_INCLASS_NO_PURE_DECLS \
+	FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h_35_ENHANCED_CONSTRUCTORS \
+private: \
+PRAGMA_ENABLE_DEPRECATION_WARNINGS
+
+
+template<> STEAMINTEGRATIONKIT_API UClass* StaticClass<class USIK_FriendsSubsystem>();
+
+#undef CURRENT_FILE_ID
+#define CURRENT_FILE_ID FID_Build_U5M_Mac_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_SteamIntegrationKit_Source_SteamIntegrationKit_Functions_Friends_SIK_FriendsSubsystem_h
+
+
+PRAGMA_ENABLE_DEPRECATION_WARNINGS

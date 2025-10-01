@@ -1,0 +1,8 @@
+{
+	"OutputFiles": [
+		"../../../arm64/UnrealGame/Shipping/OnlineSubsystemSteam/Module.OnlineSubsystemSteam.cpp.o",
+		"../../../arm64/UnrealGame/Shipping/OnlineSubsystemSteam/Module.OnlineSubsystemSteam.cpp.o",
+		"../../../x64/UnrealGame/Shipping/OnlineSubsystemSteam/Module.OnlineSubsystemSteam.cpp.o",
+		"../../../x64/UnrealGame/Shipping/OnlineSubsystemSteam/Module.OnlineSubsystemSteam.cpp.o"
+	]
+}
